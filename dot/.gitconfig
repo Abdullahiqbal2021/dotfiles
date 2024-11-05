@@ -1,0 +1,25 @@
+# global setting
+[alias]
+	graph = log --all --graph --decorate --oneline
+	assume-unchanged = update-index --assume-unchanged
+	no-assume-unchanged = update-index --no-assume-unchanged
+[branch]
+	autosetupmerge = always
+[core]
+	editor = code -w
+	excludesfile = ~/.gitignore
+[commit]
+	template = ~/.gitmessage
+	gpgsign = true
+[user]
+	email = muhammadabdullahiqbal2021@gmail.com
+	name = abdullah
+	signingKey = /home/abdullah/.ssh/id_github.pub
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[gpg]
+	format = ssh
