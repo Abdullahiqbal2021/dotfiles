@@ -73,6 +73,7 @@ alias pn='pnpm'
 alias pnx='pnpm dlx'
 alias open='xdg-open'
 alias cat='batcat --paging=never'
+alias cls='clear'
 
 ##############################################################################
 # 03. Functions                                                              #
