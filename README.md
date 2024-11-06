@@ -58,3 +58,45 @@ directory also in ~.
 | **Wine**              | Compatibility layer for running Windows applications on Linux.                 |
 | **Mono**              | .NET framework for running cross-platform applications.                        |
 | **MS Teams**          | Microsoft Teams client for Linux, built by the community.                      |
+| **Docker**            | Containerization platform for developing, shipping, and running applications.  |
+
+Additionally, the following packages are installed:
+
+### Orchis Theme
+
+Orchis is a [Material Design](https://material.io) theme for GNOME/GTK based desktop environments.
+
+https://github.com/vinceliuice/Orchis-theme
+
+### Tela Icon Theme
+
+A flat, colorful icon theme
+
+https://github.com/vinceliuice/Tela-icon-theme
+
+### Gtk Terminal Styles
+
+A set of GTK terminal styles for the [Tilix](https://gnunn1.github.io/tilix-web/) terminal emulator.
+
+https://github.com/vinceliuice/tilix-themes
+
+### Shell Extensions
+
+A collection of shell extensions for GNOME Shell.
+
+## GNOME Extensions
+
+| Extension                                                                                   | Description                              |
+| ------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)                 | Adds a blur effect to the GNOME shell.   |
+| [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)                            | Prevents the computer from sleeping.     |
+| [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)      | Manages clipboard history.               |
+| [Color Picker](https://extensions.gnome.org/extension/3396/color-picker/)                   | Quick color picker tool.                 |
+| [IP Finder](https://extensions.gnome.org/extension/2983/ip-finder/)                         | Displays public and local IP addresses.  |
+| [LAN IP Address](https://extensions.gnome.org/extension/1762/lan-ip-address/)               | Shows LAN IP address in the top bar.     |
+| [Lock Keys](https://extensions.gnome.org/extension/36/lock-keys/)                           | Displays lock key status in the top bar. |
+| [Removable Drive Menu](https://extensions.gnome.org/extension/7/removable-drive-menu/)      | Adds a menu for removable drives.        |
+| [Simple System Monitor](https://extensions.gnome.org/extension/4506/simple-system-monitor/) | Displays basic system monitoring stats.  |
+| [User Themes](https://extensions.gnome.org/extension/19/user-themes/)                       | Enables user shell themes.               |
+| [Workspace Indicator](https://extensions.gnome.org/extension/3952/workspace-indicator/)     | Shows workspace switcher in the top bar. |
+| [Multi Monitors Add-On](https://extensions.gnome.org/extension/921/multi-monitors-add-on/)  | Adds utilities for multiple monitors.    |
