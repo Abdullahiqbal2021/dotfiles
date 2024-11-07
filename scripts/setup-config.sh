@@ -15,7 +15,7 @@ sudo usermod -a -G dialout "$USER"
 echo -e "\n${GREEN}Setting Up Pop Launcher to open website...${NC}"
 mkdir -p ~/.local/share/pop-launcher/plugins/web
 echo '( rules: [ ( matches: ["www"], queries: [(name: "Open Website", query: "http://")] ), ] )' >~/.local/share/pop-launcher/plugins/web/config.ron
-gsettings set org.gnome.desktop.background picture-uri file:///home/"$(whoami)"/Pictures/Wallpapers/wavey-rainbow.jpg
+gsettings set org.gnome.desktop.background picture-uri file:///home/"$(whoami)"/Pictures/Wallpapers/dark-hexa.jpg
 
 echo -e "\n${GREEN}Installing Gnome Shell Extensions...${NC}"
 rm -f ./install-gnome-extensions.sh
@@ -87,7 +87,7 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo s
 
 echo -e "\n${GREEN}Setting Up Wallpaper...${NC}"
 cp -rTvf ~/dotfiles/wallpapers ~/Pictures/Wallpapers
-gsettings set org.gnome.desktop.background picture-uri file:///home/"$(whoami)"/Pictures/Wallpapers/wavey-rainbow.jpg
+gsettings set org.gnome.desktop.background picture-uri file:///home/"$(whoami)"/Pictures/Wallpapers/dark-hexa.jpg
 
 echo -e "\n${GREEN}Setting Tilix as the default...${NC}"
 sudo update-alternatives --set x-terminal-emulator /usr/bin/tilix.wrapper
