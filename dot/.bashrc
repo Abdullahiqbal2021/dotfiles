@@ -80,7 +80,7 @@ alias cls='clear'
 ##############################################################################
 
 # update the environment
-# TODO fix vscode and azuredatastudio not updating automatically
+# TODO fix vscode and azure data studio not updating automatically
 update() {
 	sudo apt update &&
 		sudo apt full-upgrade -y --allow-downgrades --fix-missing &&
@@ -88,11 +88,6 @@ update() {
 	~/dotfiles/scripts/install-nvm.sh
 	nvm-update lts/*
 	nvm use lts/*
-	corepack prepare yarn@stable --activate
-	corepack prepare pnpm@latest --activate
-	npm-check -gu
-	nvm-update node
-	nvm use node
 	corepack prepare yarn@stable --activate
 	corepack prepare pnpm@latest --activate
 	npm-check -gu
@@ -370,7 +365,5 @@ export PATH="$DENO_INSTALL/bin:$PATH"
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-export ANDROID_NDK_HOME=$ANDROID_HOME/ndk/25.1.8937393
-
 
 PATH=~/.console-ninja/.bin:$PATH

@@ -24,7 +24,7 @@ directory also in ~.
 #### Run the script:
 
 ```bash
-    ./install.sh
+./install.sh
 ```
 
 ### For Windows
@@ -59,6 +59,8 @@ directory also in ~.
 | **Mono**              | .NET framework for running cross-platform applications.                        |
 | **MS Teams**          | Microsoft Teams client for Linux, built by the community.                      |
 | **Docker**            | Containerization platform for developing, shipping, and running applications.  |
+
+---
 
 Additionally, the following packages are installed:
 
