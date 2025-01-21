@@ -82,6 +82,9 @@ if ! command -v code &>/dev/null; then
 	sudo apt -qq install -y code
 fi
 
+# Add extension to open folder directly in VS Code
+wget -qO- https://raw.githubusercontent.com/harry-cpp/code-nautilus/master/install.sh | bash
+
 # install remmina
 if ! command -v remmina &>/dev/null; then
 	echo -e "\n${GREEN}Installing Remmina...${NC}"
